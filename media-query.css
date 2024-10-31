@@ -1,0 +1,349 @@
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .main {
+    /* margin: 0 20px; */
+    margin: auto;
+    max-width: 1024px;
+  }
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    /* padding: 0 10px; */
+    max-width: 1024px;
+    /* row-gap: 5px; */
+  }
+  .logo {
+    margin: 0;
+  }
+  .logo > img {
+    width: 50px;
+    height: 50px;
+    /* margin-right: 250px; */
+    margin-left: 0;
+  }
+  .list{
+    margin-bottom: 50px;
+    margin-right: 10px;
+    margin-left: 0;
+  }
+  .btn-1{
+    width: 100px;
+    font-size: 17px;
+    margin-right: 250px;
+    margin-left: 0;
+    margin-bottom: 50px;
+  }
+  .heroSection {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-top: 20px;
+    column-gap: 10px;
+    margin-left:0px;
+    margin-right: 100px;
+  }
+  #heading {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 36px;
+    margin-top: 70px;
+    margin-left: 25px;
+  }
+  .text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width:60%;
+    height: 50%;
+    padding: 0 20px;
+    margin-top: 50px;
+    height: auto;
+  }
+  .para {
+    font-size: 17px;
+    padding: 0 30px;
+    text-align: justify;
+    
+  }
+  .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-direction:row;
+    /* margin: 10px auto; */
+  }
+  .btn > button > img {
+    width: 150px;
+    height: 40px;
+  }
+  .img>img{
+    width:60%;
+    height:60vh;
+    /* margin-top: 20px; */
+    /* margin-bottom: 100px; */
+  }
+  #rectangle {
+    display: flex;
+    align-items: center;
+    width:65%;
+    padding: 20px 50px;
+
+  }
+  .ancher {
+    font-size: 20px;
+    line-height: 20px;
+    margin: auto;
+  }
+  .input > input {
+    width: 300px;
+    height: 45px;
+    margin: auto;
+  }
+  .btn-3 {
+    height: 45px;
+    width: 220px;
+    font-size: 18px;
+    margin: auto;
+    border-radius: 10px;
+  }
+  /* HowTereWorks-Section */
+  #howTereWorks {
+    width:60vw;
+    margin:20px 150px;
+  }
+  .head {
+    gap: 20px;
+  }
+  .head1 > img {
+    margin-top: 30px;
+  }
+  .request{
+    margin-right: 600px;
+  }
+  .para2 {
+    font-size: 18px;
+    text-align: center;
+    padding: 0 10px;
+  }
+  /* Columns Section */
+  .columns {
+    flex-direction: column;
+    margin: auto;
+    padding: 20px;
+  }
+  .para-4 {
+    font-size: 17px;
+    text-align: center;
+    justify-content: center;
+  }
+   .icon {
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    align-self: center;
+    margin-right: 600px;
+    margin-left: 300px;
+    margin-top: 50px;
+  }
+  
+  .c4{
+    margin-left: 300px;
+  }
+  .para-3,.para-4 {
+    font-size: 18px;
+    justify-content: center;
+    text-align: center;
+    margin-right: 300px;
+    padding:10px 20px;
+  }
+  
+  .instant, .h1, .h1-left {
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    text-align: center;
+    justify-content: center;
+    margin-right: 310px;
+    margin-top: 50px;
+  }
+  .col-2>img{
+display: none;
+  }
+  /* TERE BENEFITS SECTION */
+  .tereBenefit {
+    align-self: center;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .tereHeading > img {
+    width:50%;
+    height: 100px;
+    margin-left: 100px;
+  }
+  /* Flexible Working Hours Section */
+  .fb1 {
+    display: flex;
+    width: 60%;
+    height: auto;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ftext {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+    gap: 30px;
+  }
+  #Flexible{
+    font-size: 30px;
+    margin-bottom: 50px;
+  }
+  .n1>img{
+    height: 50px;
+    float: right;
+    margin-bottom: 20px;
+  }
+  .para-5 {
+    font-size: 17px;
+    line-height: 20px;
+    margin-top: 30px;
+  }
+  .fimg {
+    margin: auto;
+  }
+  .fimg > img {
+    width: 250px;
+    padding: 10px;
+  }
+  /* Dollar Section */
+  .db1 {
+    display: flex;
+    width: 60%;
+    height: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  .dimg {
+    justify-content: center;
+    align-items: center;
+  }
+  .dimg > img {
+    width: 200px;
+    margin-left: 50px;
+  }
+  .etext {
+    align-items: center;
+    justify-content: center;
+    padding: 0 30px;
+  }
+  .earning {
+    margin-top: 150px;
+    margin-right: 150px;
+    font-size: 30px;
+  }
+  .span {
+    margin-top: 50px;
+    margin-right: 50px;
+    font-size: 70px;
+  }
+  .para-6 {
+    line-height: 24px;
+    margin-left: 50px;
+    margin-right: 30px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    padding:0 20px;
+  }
+  /* Customer Support Section */
+  .cb1 {
+    display: flex;
+    width: 60%;
+    margin:50px 50px;
+    padding: 5px;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 50px; */
+  }
+  .customerHead{
+   margin-top: 50px;
+  }
+  .custom {
+    font-size: 22px;
+    font-weight: 800;
+    margin-right: 50px;
+  }
+  .span-3 {
+    font-size: 70px;
+    margin-left: 20px;
+  }
+  .span24-7 {
+    font-size: 22px;
+  }
+  #para-mq {
+    font-size: 16px;
+    line-height: 17px;
+    margin: 20px;
+    padding: 20px;
+  }
+  /* Tere-Footer Section */
+  .tere-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    width: 70%;
+    height: auto;
+    padding: 25px;
+  }
+  .tfoot {
+    /* flex-direction: column; */
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content:space-evenly;
+    row-gap: 10px;
+  }
+  .last-btn {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .last-btn>img{
+    width: 80px;
+    height: 40px;
+  }
+  .image>img{
+    height: 50px;
+    width: 100px;
+    margin-top: 50px;
+    
+  }
+  .fhead{
+    margin-top: 20px;
+    font-size: 17px;
+  }
+  .fpara{
+    margin-top: 20px;
+    font-size: 16px;
+  }
+}

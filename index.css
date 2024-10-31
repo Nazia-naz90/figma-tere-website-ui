@@ -1,0 +1,479 @@
+@font-face {
+  font-family: gilory-medium;
+  src: url(assests/fonts/gilroy-1/Gilroy-Medium.ttf.ttf);
+}
+@font-face {
+  font-family: gilory-ExtraBold;
+  src: url(assests/fonts/gilroy-1/Gilroy-ExtraBold.ttf.ttf);
+}
+@font-face {
+  font-family: gilory-light;
+  src: url(assests/fonts/gilroy-1/Gilroy-Light.ttf.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: gilory-medium;
+}
+body {
+  background-color: whitesmoke;
+}
+.main {
+  width: 1260px;
+  margin: auto;
+}
+.nav {
+  display: flex;
+  width: 100%;
+  height: 174px;
+  background-color: #ffffff;
+
+}
+.logo {
+  margin-top: 85px;
+  margin-left: 70px;
+}
+.list {
+  margin-top: 85px;
+  margin-left: 300px;
+  align-content: center;
+  justify-content: center;
+}
+.list > ul {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  gap: 50px;
+  list-style-type: none;
+}
+.list ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 500;
+  font-size: 17.16px;
+  line-height: 20.82px;
+}
+.btn-1 {
+  width: 182px;
+  height: 50px;
+  margin-top: 87px;
+  margin-left: 50px;
+  border: none;
+  background-color: #75bf7a;
+  font-size: 22px;
+  font-family: gilory-medium;
+  font-weight: 600;
+  line-height: 26.95px;
+  color: #ffffff;
+  border-radius: 5.95px;
+  margin-right: 70px;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+.burger-btn{
+display:none;
+}
+#icon-btn{
+  border:none;
+}
+.icon{
+
+  display:none;
+}
+/* ===============Hero Section ================ */
+.heroSection {
+
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  background-color: whitesmoke;
+
+}
+.text {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 50px;
+  height: 500px;
+  margin-top: 230px;
+}
+#heading {
+  font-family: gilory-ExtraBold;
+  font-size: 60.73px;
+  font-weight: 800;
+  line-height: 65.91px;
+}
+.para {
+  font-family: gilory-light;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #9e9da2;
+}
+.btn {
+  display: flex;
+  gap: 25px;
+}
+.btn > button {
+  border: none;
+}
+.img {
+  flex: 1;
+  margin-top: 133px;
+}
+/*================ Rectangle Section ===============*/
+#rectangle {
+  display: flex;
+  height: 166px;
+  background-image: url("./assests/images/Rectangle\ .png");
+  margin-top: 100px;
+  border-radius: 10px;
+}
+.ancher {
+  font-family: gilory-light;
+  font-size: 24.6px;
+  line-height: 28px;
+  font-weight: 600;
+  margin-left: 70px;
+  margin-top: 66px;
+}
+.ancher > p > a {
+  color: white;
+}
+.input > input {
+  width: 400px;
+  height: 60px;
+  border-radius: 4.39px;
+  border: none;
+  margin-left: 80px;
+  margin-top: 66px;
+}
+.btn-3 {
+  background-image: url("/assests/images/Rectangle\ btn.png");
+  height: 60px;
+  width: 240px;
+  font-size: 22px;
+  font-weight: 800;
+  font-family: gilory-light;
+  color: white;
+  margin-left: 10px;
+  margin-top: 66px;
+  border-radius: 8px;
+}
+/*================= HowTereWorks-section ================*/
+
+.head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  gap: 20px;
+}
+.head1 > img {
+  margin-top: 150px;
+}
+
+.para2 {
+  font-family: gilory-light;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 26px;
+  text-align: center;
+  color: #9e9da2;
+}
+/*================== Columns Section ====================*/
+.columns {
+  display: flex;
+  padding: 100px 150px;
+  gap: 10px;
+}
+.para-3 {
+  color: #9e9da2;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: right;
+  align-items: left;
+  align-content: left;
+  justify-content: left;
+}
+.para-4 {
+  color: #9e9da2;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: left;
+  align-items: left;
+  align-content: left;
+  justify-content: left;
+}
+.box-1{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  align-content: center;
+  justify-content:space-between;
+}
+.icon {
+  width: 60px;
+  height: 60px;
+  color: #75BF7A;
+  border:10px solid  #75bf7a;
+  border-radius: 50%;
+  border-style: dashed;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  align-self: flex-end;
+}
+
+.h1 {
+  font-family: gilory-medium;
+  font-size: 22px;
+  font-weight: 800px;
+  line-height: 50.35px;
+  color: #000000;
+  margin-left: 100px;
+  align-items: left;
+  align-content: left;
+  justify-content: left;
+}
+.instant {
+  font-family: gilory-medium;
+  font-size: 22px;
+  font-weight: 800;
+  line-height: 50.35px;
+  color: #000000;
+}
+.h1-left {
+  font-family: gilory-medium;
+  font-size: 22px;
+  font-weight: 800px;
+  line-height: 50.35px;
+  color: #000000;
+  margin-right: 100px;
+  align-items: right;
+  align-content: right;
+  justify-content: right;
+}
+
+/*============= TERE BENEFITS SECTION ==============*/
+.tereBenefit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+.tereHeading > img {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+/*============= Flexible-Working-Hours =============*/
+.fb1 {
+  display: flex;
+  width: 1000px;
+  height: 285px;
+  margin-left: 80px;
+  border-radius: 10px;
+  border: 2px solid white;
+  box-shadow: 2px 2px 10px black;
+  /* background-color:aqua; */
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+}
+.db1{
+  display: flex;
+  width: 1000px;
+  height: 285px;
+  border-radius: 10px;
+  border: 2px solid white;
+  box-shadow: 2px 2px 10px black;
+  /* background-color:aqua; */
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  margin-top:50px;
+  margin-bottom:30px;
+  margin-left: 140px;
+  margin-right:50px;
+
+}
+.ftext {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: auto;
+  margin-left: 100px;
+  gap: 20px;
+
+}
+/* -------Earnings-text start----------- */
+.etext {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: auto;
+  margin-right: 50px;
+  gap: 20px;
+}
+.Ctext{
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: auto;
+  margin-left: 50px;
+  gap: 20px;
+
+}
+.cb1{
+  display: flex;
+  width: 1000px;
+  height: 285px;
+  margin-left: 80px;
+  background-color:white;
+  border-radius: 10px;
+  border: 2px solid white;
+  box-shadow: 2px 2px 10px black;
+  /* background-color:aqua; */
+  align-items: center;
+  align-content: center;
+  justify-content: space-between; 
+  margin-top: 100px;
+  margin-bottom:50px;
+}
+.cwhr{
+  border: 2px solid whitesmoke;
+  background-image:url("/assests/images/mobile.png");
+  background-repeat:no-repeat;
+  background-position:360px bottom;
+  height:100vh;
+}
+.span {
+  font-size: 100px;
+  font-weight: 500;
+  color: #75bf7a;
+}
+.span-3{
+  font-size: 100px;
+  font-weight: 500;
+  color: #75bf7a;
+  display: inline-block;
+  align-self: self-start;
+}
+.earning{
+
+  font-family: gilory-medium;
+  font-size: 33.94px;
+  font-weight: 600;
+  margin-left: 140px;
+
+}
+
+#cust-Heading{
+  font-family: gilory-medium;
+  font-size: 33.94px;
+  line-height:5px;
+  font-weight: 600;
+}
+.custom{
+  margin-top:100px;
+  margin-left:140px;
+}
+.n1 {
+  position: absolute;
+  height: 70px;
+  float: left;
+  z-index: -10;
+  padding-right: 50px;
+}
+
+#Flexible {
+  font-family: gilory-medium;
+  font-size: 33.94px;
+  line-height: 32.5px;
+  font-weight: 600;
+}
+.para-5 {
+  color: #9e9da2;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 23px;
+}
+.para-6 {
+  color: #9e9da2;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 23px;
+
+}
+.fimg {
+  margin-right: 100px;
+}
+.dimg {
+  margin-left: 100px;
+}
+/*================== Tere-Footer-Section ====================*/
+.tere-footer{
+  height:65vh;
+
+}
+.tfoot{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content:space-between;
+  padding-top:100px ;
+  padding-bottom: 100px;
+  padding-left: 150px;
+  padding-right:50px;
+  margin-top: 50px;
+  border: 1px solid white;
+  box-shadow:2px 2px 10px rgb(201, 199, 199);
+  
+}
+.fhead{
+  font-family:gilory-medium;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 26.69px;
+  color: black;
+}
+.fpara{
+color: #8B8BA5;
+font-family: gilory-light;
+font-size: 18px;
+line-height: 21.6px;
+}
+.last-btn{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content:center;
+  gap: 30px;
+}
+.last-btn>button{
+      height:45.84px;
+      width: 178.51px;
+      background-color:black;
+      border-radius:5px;
+      
+}
+.footer-p{
+  font-family: gilory-light;
+  color: #75BF7A;
+  font-size:16px;
+  line-height: 19.2px;
+  text-align: center;
+  margin-top:50px;
+
+
+}
+
